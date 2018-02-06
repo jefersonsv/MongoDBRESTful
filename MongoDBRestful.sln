@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06DF76F8-3826-4A3E-93A1-D53F5F026609}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBRESTful.Server", "src\MongoDBRESTful.Server\MongoDBRESTful.Server.csproj", "{DF649DF9-CB9F-4DFE-84B8-124E1AB9727F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF649DF9-CB9F-4DFE-84B8-124E1AB9727F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF649DF9-CB9F-4DFE-84B8-124E1AB9727F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF649DF9-CB9F-4DFE-84B8-124E1AB9727F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF649DF9-CB9F-4DFE-84B8-124E1AB9727F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7363C56D-9623-4B3E-A826-010107BDA887}
+	EndGlobalSection
+EndGlobal
